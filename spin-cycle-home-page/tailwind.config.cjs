@@ -11,7 +11,8 @@ module.exports = {
         'vollkorn': ['Vollkorn', 'serif'],
       },
       backgroundImage: {
-        'shallow-depth-cover': "url(../images/shallow-depth-cover.jpeg)"
+        'shallow-depth-cover': "url(../images/shallow-depth-cover.jpeg)",
+        'man-in-machine': "url(../images/man-in-machine.jpg)",
       }
     },
   },
