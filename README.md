@@ -8,5 +8,4 @@ Photo by <a href="https://unsplash.com/@mimoto_photo?utm_source=unsplash&utm_med
 Photo by <a href="https://unsplash.com/@kopidanny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Koponyas</a> on <a href="https://unsplash.com/photos/RMyaPlb_-fA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
   
-  
 "Washing Machine" (https://skfb.ly/6B67Z) by sixpence is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

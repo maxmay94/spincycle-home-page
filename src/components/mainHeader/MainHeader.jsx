@@ -8,7 +8,7 @@ const MainHeader = () => {
         <div className="bg-red-200/30 p-3">
           <h1 className="font-gloock md:text-8xl text-6xl">SpinCycle</h1>
           <br />
-          <div className="font-vollkorn text-2xl">Let us take care of your laundry!</div>
+          <div className="font-vollkorn text-2xl">The smart way to manage your clothes.</div>
           <br />
         </div>
 
