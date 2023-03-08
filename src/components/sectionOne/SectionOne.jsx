@@ -6,7 +6,7 @@ const SectionOne = () => {
     <div className="w-screen grid grid-cols-8 gap-4 bg-slate-200 text-slate-900 py-10">
 
       <div className="col-span-8 flex flex-col justify-center items-center">
-        <h1 className="font-gloock text-5xl font-bold text-center highlight-yellow-200 hover:bg-yellow-200 hover:skew-x-2 hover:skew-y-2">SpinCycle</h1>
+        <h1 className="font-gloock text-5xl font-bold text-center highlight-yellow-200 hover:bg-yellow-200 hover:skew-x-2 hover:skew-y-2 transition duration-700">SpinCycle</h1>
       </div>
 
       <div className="md:col-span-3 col-start-2 col-end-8 py-10 my-auto px-10 sm:px-20 md:px-10 lg:px-20">
