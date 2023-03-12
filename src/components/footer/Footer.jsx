@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <div className="w-screen bg-slate-300 h-fit text-slate-900 font-light p-5">
-      <div className="grid grid-cols-5 gap-4 text-base text-center">
+      <div className="grid sm:grid-cols-5 grid-cols-2 gap-4 text-base text-center">
 
         <Collapsible trigger="About SpinCycle" className="hover:underline">
           <div className="text-xs">
