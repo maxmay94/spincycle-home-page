@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <div className="w-screen bg-slate-300 h-fit text-slate-900 font-light p-5">
-      <div className="grid sm:grid-cols-5 grid-cols-2 gap-4 text-center">
+      <div className="grid sm:grid-cols-5 grid-cols-1 gap-4 text-center font-vollkorn">
 
         <Collapsible trigger="About SpinCycle" className="hover:underline">
           <div className="text-xs">
@@ -32,9 +32,9 @@ const Footer = () => {
           </div>
         </Collapsible>
 
-        <Collapsible trigger="Questions?" className="hover:underline">
+        <Collapsible trigger="FAQ" className="hover:underline">
           <div className="text-xs">
-            <p className="hover:underline">Our FAQ</p>
+            <a href="/FAQ" className="hover:underline text-slate-900">Our FAQ</a>
             <p className="hover:underline">Contact Us</p>
           </div>
         </Collapsible>
