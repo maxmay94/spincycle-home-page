@@ -45,11 +45,9 @@ const Footer = () => {
             <p className="hover:underline">Instagram</p>
             <p className="hover:underline">LinkedIn</p>
             <p className="hover:underline">Twitter</p>
-            <p className="hover:underline">TikTok</p>
-            <p className="hover:underline">YouTube</p>
           </div>
         </Collapsible>
-        
+
       </div>
 
     </div>
