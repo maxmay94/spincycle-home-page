@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Collapsible from "react-collapsible"
 
 const Footer = () => {
@@ -5,7 +6,7 @@ const Footer = () => {
 
   return (
     <div className="w-screen bg-slate-300 h-fit text-slate-900 font-light p-5">
-      <div className="grid sm:grid-cols-5 grid-cols-1 gap-4 text-center font-vollkorn">
+      <div className="grid md:grid-cols-5 grid-cols-1 gap-4 text-center font-vollkorn">
 
         <Collapsible trigger="About SpinCycle" className="hover:underline">
           <div className="text-xs">
@@ -34,7 +35,7 @@ const Footer = () => {
 
         <Collapsible trigger="FAQ" className="hover:underline">
           <div className="text-xs">
-            <a href="/FAQ" className="hover:underline text-slate-900">Our FAQ</a>
+            <Link to="/FAQ" className="hover:underline text-slate-900">Our FAQ</Link>
             <p className="hover:underline">Contact Us</p>
           </div>
         </Collapsible>

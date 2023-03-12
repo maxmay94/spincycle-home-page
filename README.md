@@ -9,3 +9,5 @@ Photo by <a href="https://unsplash.com/@kopidanny?utm_source=unsplash&utm_medium
   
   
 "Washing Machine" (https://skfb.ly/6B67Z) by sixpence is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e0fccf2-f0c8-4366-9ac1-43e85177810b/deploy-status)](https://app.netlify.com/sites/spin-cycle-test-page/deploys)
