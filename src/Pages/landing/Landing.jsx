@@ -1,6 +1,7 @@
 import MainHeader from "../../components/mainHeader/MainHeader"
 import SectionOne from "../../components/sectionOne/SectionOne"
-import SectionTwo from "../../components/sectionTwo/SectionTwo"
+// import SectionTwo from "../../components/sectionTwo/SectionTwo"
+import Footer from "../../components/footer/Footer"
 
 const Landing = () => {
 
@@ -8,7 +9,8 @@ const Landing = () => {
     <div className="absolute top-0">
       <MainHeader />
       <SectionOne />
-      <SectionTwo />
+      {/* <SectionTwo /> */}
+      <Footer />
     </div>
   )
 }
