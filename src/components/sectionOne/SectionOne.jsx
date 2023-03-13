@@ -1,4 +1,3 @@
-import WashingMachineScene from "../washingMachine/WashingMachineScene"
 
 const SectionOne = () => {
 
@@ -13,12 +12,14 @@ const SectionOne = () => {
         <img className="max-w-80 hover:scale-110 transition duration-700" src="../images/man-in-machine-2.jpg" alt="man in washing machine" />
       </div>
 
-      <div className="md:col-span-2 col-start-2 col-span-6 my-auto">
-        <p className="font-vollkorn text-center xl:text-xl md:text-base sm:px-10 md:px-0 ">Don't worry about your laundry. From         wash-and-fold to dry cleaning and everything in-between we've got you covered door-to-door.
+      <div className="md:col-span-2 col-start-2 col-span-6 my-auto font-vollkorn text-center xl:text-xl md:text-base sm:px-10 md:px-0 ">
+        <p>Don't worry about your laundry. From         wash-and-fold to dry cleaning and everything in-between we've got you covered door-to-door.
         <br />
         <br />
         Our convenient online booking system allows you to schedule your laundry pickup and delivery at your own convenience. Plus, we offer flexible delivery options, including same-day and next-day delivery, so you can have your laundry back when you need it.
         </p>
+        <br />
+        <p>Coming soon to Boston!</p>
       </div>
 
       <div className="md:col-span-3 col-start-2 col-end-8 py-10 my-auto px-10 sm:px-20 md:px-10 lg:px-20">

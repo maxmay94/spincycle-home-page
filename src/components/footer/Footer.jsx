@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom"
 import Collapsible from "react-collapsible"
+import { Reoverlay } from "reoverlay"
+import MessageModal from "../messageModal/MessageModal"
 
 const Footer = () => {
+
+  const showMessage = () => {
+    Reoverlay.showModal(MessageModal, {
+      text: "Oops, this page is still under construction!"
+    })
+  }
 
 
   return (
@@ -10,42 +18,42 @@ const Footer = () => {
 
         <Collapsible trigger="About SpinCycle" className="hover:underline">
           <div className="text-xs">
-            <p className="hover:underline">Our Mission and Impact</p>
-            <p className="hover:underline">A Career With Us</p>
-            <p className="hover:underline">Our Terms</p>
-            <p className="hover:underline">Privacy</p>
+            <p className="hover:underline" onClick={showMessage}>Our Mission and Impact</p>
+            <p className="hover:underline" onClick={showMessage}>A Career With Us</p>
+            <p className="hover:underline" onClick={showMessage}>Our Terms</p>
+            <p className="hover:underline" onClick={showMessage}>Privacy</p>
           </div>
         </Collapsible>
 
         <Collapsible trigger="Our Solutions" className="hover:underline">
           <div className="text-xs">
-            <p className="hover:underline">What We Do</p>
-            <p className="hover:underline">Where We Operate</p>
-            <p className="hover:underline">Refer A Friend Or Family</p>
+            <p className="hover:underline" onClick={showMessage}>What We Do</p>
+            <p className="hover:underline" onClick={showMessage}>Where We Operate</p>
+            <p className="hover:underline" onClick={showMessage}>Refer A Friend Or Family</p>
           </div>
         </Collapsible>
 
         <Collapsible trigger="Join Us" className="hover:underline">
           <div className="text-xs">
-            <p className="hover:underline">A Career With Us</p>
-            <p className="hover:underline">Become A Driver</p>
-            <p className="hover:underline">Become A Service Provider</p>
+            <p className="hover:underline" onClick={showMessage}>A Career With Us</p>
+            <p className="hover:underline" onClick={showMessage}>Become A Driver</p>
+            <p className="hover:underline" onClick={showMessage}>Become A Service Provider</p>
           </div>
         </Collapsible>
 
         <Collapsible trigger="FAQ" className="hover:underline">
           <div className="text-xs">
             <Link to="/FAQ" className="hover:underline text-slate-900 hover:text-blue-900">Our FAQ</Link>
-            <p className="hover:underline">Contact Us</p>
+            <p className="hover:underline" onClick={showMessage}>Contact Us</p>
           </div>
         </Collapsible>
 
         <Collapsible trigger="Contact Us" className="hover:underline">
           <div className="text-xs">
-            <p className="hover:underline">FaceBook</p>
-            <p className="hover:underline">Instagram</p>
-            <p className="hover:underline">LinkedIn</p>
-            <p className="hover:underline">Twitter</p>
+            <p className="hover:underline" onClick={showMessage}>FaceBook</p>
+            <p className="hover:underline" onClick={showMessage}>Instagram</p>
+            <p className="hover:underline" onClick={showMessage}>LinkedIn</p>
+            <p className="hover:underline" onClick={showMessage}>Twitter</p>
           </div>
         </Collapsible>
 

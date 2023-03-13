@@ -19,7 +19,7 @@ const FAQ = () => {
   })
 
   return (
-    <div className="bg-slate-200text-slate-900 grid grid-cols-1 w-[100vw] h-screen text-slate-900">
+    <div className="bg-slate-200 overflow-x-hidden grid grid-cols-1 w-[100vw] h-screen text-slate-900">
 
       <div className="font-gloock bg-yellow-machines bg-top bg-cover py-20">
         <div className="mt-10 h-fit w-fit md:w-2/3 p-3 pr-20 backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-hue-rotate-45 hover:backdrop-contrast-150 transition duration-700">
