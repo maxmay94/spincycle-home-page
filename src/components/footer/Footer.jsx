@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Collapsible from "react-collapsible"
 import { Reoverlay } from "reoverlay"
-import MessageModal from "../messageModal/MessageModal"
+import MessageModal from "../modals/messageModal/MessageModal"
 
 const Footer = () => {
 
