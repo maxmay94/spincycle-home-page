@@ -21,13 +21,11 @@ const FAQ = () => {
   return (
     <div className="bg-slate-200text-slate-900 grid grid-cols-1 w-[100vw] h-screen text-slate-900">
 
-
-
       <div className="font-gloock bg-yellow-machines bg-top bg-cover">
-        <div className="mt-10 py-20 h-fit w-fit md:w-2/3 p-3 pr-20 backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-contrast-150 transition duration-700">
-          <div className="py-5 bg-red-200/30 hover:skew-x-2 hover:skew-y-2 transition duration-700 text-center">
+        <div className="mt-10 py-20 h-fit w-fit md:w-2/3 p-3 pr-20 backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-hue-rotate-45 hover:backdrop-contrast-150 transition duration-700">
+          <div className="py-5 bg-yellow-200/30 hover:bg-red-200/30 pr-40 hover:skew-x-2 hover:skew-y-2 transition duration-700 text-center">
 
-            <Link to="/" className="text-6xl text-inherit hover:text-slate-900 hover:bg-yellow-200 transition duration-700">SpinCycle</Link>
+            <Link to="/" className="text-6xl text-inherit hover:text-slate-900 hover:bg-red-200 transition duration-700">SpinCycle</Link>
           </div>
         </div>
       </div>
@@ -36,7 +34,7 @@ const FAQ = () => {
       <div className="bg-slate-200 w-full mt-10">
         <div className="px-10 text-center font-vollkorn">
 
-          <p className="text-2xl ">Frequently Asked Questions</p>
+          <p className="text-3xl ">Frequently Asked Questions</p>
           <br />
 
           <div ref={sliderRef} className="keen-slider">
@@ -50,7 +48,7 @@ const FAQ = () => {
 
             <div className="keen-slider__slide">
               <div className="text-xl">How do I schedule my first order?</div>  
-              <div>You can schedule your first order right from our website.</div>
+              <div className="m-10">You can schedule your first order right from our website.</div>
             </div>
 
             <div className="keen-slider__slide">
