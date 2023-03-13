@@ -19,7 +19,7 @@ const FAQ = () => {
   })
 
   return (
-    <div className="bg-slate-200 overflow-x-hidden grid grid-cols-1 w-[100vw] h-screen text-slate-900">
+    <div className="bg-slate-200 overflow-x-hidden grid grid-cols-1 w-screen h-screen text-slate-900">
 
       <div className="font-gloock bg-yellow-machines bg-top bg-cover py-20 pl-5">
         <div className="mt-10 h-fit w-fit md:w-2/3 p-3 pr-20 backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-hue-rotate-45 hover:backdrop-contrast-150 transition duration-700">
@@ -40,7 +40,7 @@ const FAQ = () => {
           <p className="text-3xl ">Frequently Asked Questions</p>
           <br />
 
-          <div ref={sliderRef} className="keen-slider">
+          <div ref={sliderRef} className="keen-slider h-fit">
 
             <div className="keen-slider__slide">
               <div className="text-xl">Who cleans my clothes?</div>
@@ -119,7 +119,7 @@ function Arrow(props) {
     <svg
       onClick={props.onClick}
       className={` ${
-        props.left ? "h-3 left-0 bottom-[7rem] relative hover:cursor-help" : "h-3 relative -right-[98%]  bottom-[7.75rem] hover:cursor-help"
+        props.left ? "h-3 left-0 sm:bottom-[9rem] bottom-[13rem] relative hover:cursor-help" : "h-3 relative -right-[98%]  sm:bottom-[9.75rem] bottom-[13.7rem] hover:cursor-help"
       }`}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
