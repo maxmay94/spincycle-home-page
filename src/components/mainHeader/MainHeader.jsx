@@ -1,7 +1,7 @@
 const MainHeader = () => {
 
   return (
-    <div className="bg-shallow-depth-cover h-[100vh] w-screen bg-cover sm:bg-fixed pb-40 text-slate-900 flex">
+    <div className="bg-shallow-depth-cover h-[100vh] w-screen bg-cover sm:bg-fixed pb-40 text-slate-900 flex overflow-x-hidden">
 
       {/* <div className="grid gap-2 w-screen p-10">
         <div className="col-span-6"></div>
