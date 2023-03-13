@@ -10,6 +10,7 @@ const Landing = () => {
       <MainHeader />
       <SectionOne />
       {/* <SectionTwo /> */}
+
       <Footer />
     </div>
   )

@@ -35,7 +35,7 @@ const Footer = () => {
 
         <Collapsible trigger="FAQ" className="hover:underline">
           <div className="text-xs">
-            <Link to="/FAQ" className="hover:underline text-slate-900">Our FAQ</Link>
+            <Link to="/FAQ" className="hover:underline text-slate-900 hover:text-blue-900">Our FAQ</Link>
             <p className="hover:underline">Contact Us</p>
           </div>
         </Collapsible>
