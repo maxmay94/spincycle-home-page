@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         'shallow-depth-cover': "url(../images/shallow-depth-cover.jpeg)",
+        'yellow-machines': "url(../images/yellow-machines.jpg)",
         'man-in-machine': "url(../images/man-in-machine.jpg)",
         'machine-by-ocean': "url(../images/machine-by-ocean.jpg)",
         'machine-on-grass': "url(../images/machine-on-grass.jpg)",

@@ -1,66 +1,137 @@
 import { Link } from "react-router-dom"
 import Footer from "../../components/footer/Footer"
+import 'keen-slider/keen-slider.min.css'
+import { useKeenSlider } from 'keen-slider/react'
+import { useRef, useState } from "react"
 
 const FAQ = () => {
+  const [currentSlide, setCurrentSlide] = useState(0)
+  const [loaded, setLoaded] = useState(false)
+  const [sliderRef, instanceRef] = useKeenSlider({
+    initial: 0,
+    loop: true,
+    slideChanged(slider) {
+      setCurrentSlide(slider.track.details.rel)
+    },
+    created() {
+      setLoaded(true)
+    },
+  })
+
   return (
-    <div className="bg-slate-200 h-screen w-screen text-slate-900">
-      <div className="font-gloock">
-        <div className="p-10 hover:skew-x-2 hover:skew-y-2 transition duration-700 text-center">
-          <Link to="/" className="text-6xl text-inherit hover:text-slate-900 hover:bg-yellow-200 transition duration-700">SpinCycle</Link>
+    <div className="bg-slate-200text-slate-900 grid grid-cols-1 w-[100vw] h-screen text-slate-900">
+
+
+
+      <div className="font-gloock bg-yellow-machines bg-top bg-cover">
+        <div className="mt-10 py-20 h-fit w-fit md:w-2/3 p-3 pr-20 backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-contrast-150 transition duration-700">
+          <div className="py-5 bg-red-200/30 hover:skew-x-2 hover:skew-y-2 transition duration-700 text-center">
+
+            <Link to="/" className="text-6xl text-inherit hover:text-slate-900 hover:bg-yellow-200 transition duration-700">SpinCycle</Link>
+          </div>
         </div>
       </div>
 
-      <div className="grid grid-cols-7 w-[100vw] h-[85vh]">
 
-        <div className="bg-slate-200 w-full col-span-4">
-          <div className="px-10 text-center font-vollkorn">
+      <div className="bg-slate-200 w-full mt-10">
+        <div className="px-10 text-center font-vollkorn">
 
-            <p className="text-2xl ">Frequently Asked Questions</p>
-            <br />
+          <p className="text-2xl ">Frequently Asked Questions</p>
+          <br />
 
-            <div className="text-xl">Who cleans my clothes?</div>
-            <div className="">
-            Great news! You decide yourself. We partner with a number of service providers who are dedicated to bringing you the best quality service. What that means is that you have the option to pick the best business that fits your needs.
+          <div ref={sliderRef} className="keen-slider">
+
+            <div className="keen-slider__slide">
+              <div className="text-xl">Who cleans my clothes?</div>
+              <div className="m-10">
+              Great news! You decide yourself. We partner with a number of service providers who are dedicated to bringing you the best quality service. What that means is that you have the option to pick the best business that fits your needs.
+              </div>
             </div>
 
-            <br />
+            <div className="keen-slider__slide">
+              <div className="text-xl">How do I schedule my first order?</div>  
+              <div>You can schedule your first order right from our website.</div>
+            </div>
 
-            <div className="text-xl">How do I schedule my first order?</div>
-            <div>You can schedule your first order right from our website.</div>
+            <div className="keen-slider__slide">
+              <div className="text-xl">What happens after I schedule my delivery order?</div>
+              <div className="m-10">We notify you when we pick up your order, when the service provider receives your order, and when your order is ready and on the way to you.</div>
+            </div>
 
-            <br />
+            <div className="keen-slider__slide">
+              <div className="text-xl">What happens after I schedule my pick-up order?</div>
+              <div className="m-10">We notify the service provider of your order and you reserve your spot. All you have to do is to bring your clothes to them.</div>
+            </div>
 
-            <div className="text-xl">What happens after I schedule my order?</div>
-            <div>Delivery? We notify you when we pick up your order, when the service provider receives your order, and when your order is ready and on the way to you.</div>
-            <div>Pickup and drop off? We notify the service provider of your order and you reserve your spot. All you have to do is to bring your clothes to them.</div>
+            <div className="keen-slider__slide">
+              <div className="text-xl">How soon can I get my clothes?</div>
+              <div className="m-10">That depends on the business you choose. Some providers have same day service while others take a bit longer. Rest assured, when they are done, we will be on our way to drop off your clothes immediately.</div>
+            </div>
 
-            <br />
-
-            <div className="text-xl">How soon can I get my clothes?</div>
-            <div>That depends on the business you choose. Some providers have same day service while others take a bit longer. Rest assured, when they are done, we will be on our way to drop off your clothes immediately.</div>
-
-            <br />
-            <div className="text-xl">What if I’m not home?</div>
-            <div>We are dedicated to working around your schedule. We typically follow your preferred pickup and delivery times, and we provide you updates on our progress. If for any reason you’re not home when we're scheduled to pick up or drop off your clothes, you can leave a special instruction, or extend your timeframe. We understand </div>
-
+            <div className="keen-slider__slide">
+              <div className="text-xl">What if I’m not home?</div>
+              <div className="m-10">We are dedicated to working around your schedule. We typically follow your preferred pickup and delivery times, and we provide you updates on our progress. If for any reason you’re not home when we're scheduled to pick up or drop off your clothes, you can leave a special instruction, or extend your timeframe. We understand </div>
+            </div>
 
           </div>
 
-          
+        {loaded && instanceRef.current && (
+          <>
+            <Arrow
+              className="h-4"
+              left
+              onClick={(e) =>
+                e.stopPropagation() || instanceRef.current?.prev()
+              }
+              disabled={currentSlide === 0}
+            />
+
+            <Arrow
+              className=""
+              onClick={(e) =>
+                e.stopPropagation() || instanceRef.current?.next()
+              }
+              disabled={
+                currentSlide ===
+                instanceRef.current.track.details.slides.length - 1
+              }
+            />
+          </>
+        )}
+
         </div>
 
-        <div className="bg-machine-on-grass bg-cover bg-center col-span-3">
-
+        <div className="md:absolute md:bottom-0">
+          <Footer />
         </div>
-
       </div>
 
+      
 
-      {/* <div className="absolute bottom-0"> */}
-        <Footer />
-      {/* </div> */}
+
     </div>
   )
 }
+
+function Arrow(props) {
+  return (
+    <svg
+      onClick={props.onClick}
+      className={` ${
+        props.left ? "h-3 left-0 bottom-[7rem] relative hover:cursor-help" : "h-3 relative -right-[98%]  bottom-[7.75rem] hover:cursor-help"
+      }`}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      {props.left && (
+        <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
+      )}
+      {!props.left && (
+        <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+      )}
+    </svg>
+  )
+}
+
 
 export default FAQ
