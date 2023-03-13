@@ -26,6 +26,7 @@ const FAQ = () => {
           <div className="py-5 bg-yellow-200/30 hover:bg-red-200/30 pr-40 hover:skew-x-2 hover:skew-y-2 transition duration-700 text-center">
 
             <Link to="/" className="text-6xl text-inherit hover:text-slate-900 hover:bg-red-200 transition duration-700">SpinCycle</Link>
+            <div className="font-vollkorn pt-5">The smart way to manage your clothes.</div>
           </div>
         </div>
       </div>
@@ -68,7 +69,7 @@ const FAQ = () => {
 
             <div className="keen-slider__slide">
               <div className="text-xl">What if I’m not home?</div>
-              <div className="m-10">We are dedicated to working around your schedule. We typically follow your preferred pickup and delivery times, and we provide you updates on our progress. If for any reason you’re not home when we're scheduled to pick up or drop off your clothes, you can leave a special instruction, or extend your timeframe. We understand </div>
+              <div className="m-10">We are dedicated to working around your schedule. We typically follow your preferred pickup and delivery times, and we provide you updates on our progress. If for any reason you’re not home when we're scheduled to pick up or drop off your clothes, you can leave a special instruction, or extend your timeframe. We understand. </div>
             </div>
 
           </div>
