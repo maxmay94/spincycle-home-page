@@ -15,7 +15,7 @@ const WhereWeOperate = () => {
 
       <div className="grid sm:grid-cols-3 grid-cols-1 mx-5 text-center place-items-center mb-auto">
 
-        <img className="max-h-[90%] sm:h-fit h-2/3 my-10 lg:px-16 px-3 hover:scale-110 transition duration-700" src="../images/machine-on-grass.jpg" alt="machine on grass" />
+        <img className="sm:max-h-[90%] max-h-96 md:h-fit sm:h-96 h-2/3 my-10 lg:px-16 px-3 hover:scale-110 transition duration-700" src="../images/machine-on-grass.jpg" alt="machine on grass" />
 
         <div className="font-vollkorn">
           <p className="text-xl mb-5">
@@ -36,7 +36,7 @@ const WhereWeOperate = () => {
           </ul>
         </div>
 
-        <img className="max-h-[90%] sm:h-fit h-2/3 my-10 lg:px-16 px-3 hover:scale-110 transition duration-700" src="../images/machine-by-ocean.jpg" alt="machine by ocean" />
+        <img className="sm:max-h-[90%] max-h-96 md:h-fit sm:h-96 h-2/3 my-10 lg:px-16 px-3 hover:scale-110 transition duration-700" src="../images/machine-by-ocean.jpg" alt="machine by ocean" />
       </div>
 
       <Footer />
