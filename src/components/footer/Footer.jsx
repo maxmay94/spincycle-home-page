@@ -28,7 +28,7 @@ const Footer = () => {
         <Collapsible trigger="Our Solutions" className="hover:underline">
           <div className="text-xs">
             <p className="hover:underline" onClick={showMessage}>What We Do</p>
-            <p className="hover:underline" onClick={showMessage}>Where We Operate</p>
+            <Link to="/where_we_operate" className="hover:underline text-slate-900 hover:text-blue-900">Where We Operate</Link>
             <p className="hover:underline" onClick={showMessage}>Refer A Friend Or Family</p>
           </div>
         </Collapsible>

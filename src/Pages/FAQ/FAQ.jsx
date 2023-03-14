@@ -119,7 +119,7 @@ function Arrow(props) {
     <svg
       onClick={props.onClick}
       className={` ${
-        props.left ? "h-3 left-0 sm:bottom-[9rem] bottom-[13rem] relative hover:cursor-help" : "h-3 relative -right-[98%]  sm:bottom-[9.75rem] bottom-[13.7rem] hover:cursor-help"
+        props.left ? "h-3 left-0 sm:bottom-[9rem] bottom-[13rem] relative hover:cursor-help" : "h-3 relative -right-[98%]  sm:bottom-[9.75rem] bottom-[13.75rem] hover:cursor-help"
       }`}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
