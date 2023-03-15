@@ -16,6 +16,7 @@ module.exports = {
         'man-in-machine': "url(../images/man-in-machine.jpg)",
         'machine-by-ocean': "url(../images/machine-by-ocean.jpg)",
         'machine-on-grass': "url(../images/machine-on-grass.jpg)",
+        'black-white-machine': "url(../images/black-white-machine.jpg)",
       }
     },
   },

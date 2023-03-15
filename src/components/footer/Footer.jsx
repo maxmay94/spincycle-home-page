@@ -19,7 +19,7 @@ const Footer = () => {
         <Collapsible trigger="About SpinCycle" className="hover:underline">
           <div className="text-xs">
             <p className="hover:underline" onClick={showMessage}>Our Mission and Impact</p>
-            <p className="hover:underline" onClick={showMessage}>A Career With Us</p>
+            <Link to="/a_career_with_us" className="hover:underline text-slate-900 hover:text-blue-900">A Career With Us</Link>
             <p className="hover:underline" onClick={showMessage}>Our Terms</p>
             <p className="hover:underline" onClick={showMessage}>Privacy</p>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
 
         <Collapsible trigger="Join Us" className="hover:underline">
           <div className="text-xs">
-            <p className="hover:underline" onClick={showMessage}>A Career With Us</p>
+          <Link to="/a_career_with_us" className="hover:underline text-slate-900 hover:text-blue-900">A Career With Us</Link>
             <p className="hover:underline" onClick={showMessage}>Become A Driver</p>
             <p className="hover:underline" onClick={showMessage}>Become A Service Provider</p>
           </div>
