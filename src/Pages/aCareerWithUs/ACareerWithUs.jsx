@@ -22,7 +22,7 @@ const ACareerWithUs = () => {
 
       <div className="mb-auto  text-justify  bg-slate-200">
         <div className="grid grid-cols-1 gap-8 pb-20">
-          <div className="col-span-2 mx-20">
+          <div className="col-span-2 mx-16 sm:mx-20">
             <p className=""><span className="text-4xl">Our Mission</span>: SpinCycle is here to ensure that every step of the laundry process is easy and efficient. We do this by connecting people with local businesses that provide laundry services in their area in the most convenient way possible.
             </p>
             <br />
@@ -30,10 +30,10 @@ const ACareerWithUs = () => {
             </p>
           </div>
 
-          <div className="text-center grid sm:grid-cols-2 grid-cols-1 mx-20">
+          <div className="text-center grid sm:grid-cols-2 grid-cols-1 mx-8 sm:mx-20">
             <div className="sm:pb-0 pb-10">
               <h2 className="text-2xl">What you bring to the table?</h2>
-              <div className="text-left ml-10">
+              <div className="text-left sm:ml-10 ml-6">
                 <li>A Dedication to the work you do</li>
                 <li>Innovation to our systems and processes</li>
                 <li>Leadership qualities to help us</li>
@@ -42,7 +42,7 @@ const ACareerWithUs = () => {
             </div>
             <div>
               <h2 className="text-2xl">What we bring to the table?</h2>
-              <div className="text-left pl-10">
+              <div className="text-left sm:ml-10 ml-6">
                 <li>A competitive compensation package for your hard work</li>
                 <li>Support to help you succeed</li>
                 <li>A pathway to grow with us</li>
