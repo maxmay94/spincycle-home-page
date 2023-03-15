@@ -9,7 +9,7 @@ const ACareerWithUs = () => {
 
         <div className="w-fit sm:p-20 p-10">
           <div className="bg-slate-900/50 backdrop-blur-sm hover:backdrop-blur-none backdrop-hue-rotate-90 hover:hue-rotate-30 backdrop-contrast-150 backdrop-invert p-5 transition duration-700">
-            <h1 className="font-gloock sm:text-7xl text-6xl hover:bg-yellow-200 hover:skew-x-3 hover:skew-y-2 transition duration-700">
+            <h1 className="font-gloock sm:text-7xl text-6xl bg-red-200/20 w-[100%] hover:bg-yellow-200 hover:skew-x-3 hover:skew-y-2 transition duration-700">
               <Link to="/" className="text-slate-900 hover:text-slate-900">SpinCycle</Link>
             </h1>
             <div className="pt-3 sm:text-base text-sm">The Smart way to manage your clothes.</div>
@@ -22,6 +22,7 @@ const ACareerWithUs = () => {
 
       <div className="mb-auto  text-justify  bg-slate-200">
         <div className="grid grid-cols-1 gap-8 pb-20">
+
           <div className="col-span-2 mx-16 sm:mx-20">
             <p className=""><span className="text-4xl">Our Mission</span>: SpinCycle is here to ensure that every step of the laundry process is easy and efficient. We do this by connecting people with local businesses that provide laundry services in their area in the most convenient way possible.
             </p>
@@ -40,6 +41,7 @@ const ACareerWithUs = () => {
                 <li>A good aditude and a thirst for knowledge</li>
               </div>
             </div>
+            
             <div>
               <h2 className="text-2xl">What we bring to the table?</h2>
               <div className="text-left sm:ml-10 ml-6">
@@ -52,8 +54,7 @@ const ACareerWithUs = () => {
           </div>
 
         </div>
-        </div>
-
+      </div>
 
       <Footer />
       
