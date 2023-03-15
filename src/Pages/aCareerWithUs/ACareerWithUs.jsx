@@ -35,7 +35,7 @@ const ACareerWithUs = () => {
           <div className="text-center grid sm:grid-cols-2 grid-cols-1 mb-20">
             <div className="sm:pb-0 pb-10">
               <h2 className="text-2xl">What you bring to the table?</h2>
-              <div className="mt-2">
+              <div className="text-left sm:text-center mt-2">
                 <li>A Dedication to the work you do</li>
                 <li>Innovation to our systems and processes</li>
                 <li>Leadership qualities to help us</li>
@@ -45,7 +45,7 @@ const ACareerWithUs = () => {
 
             <div className="">
               <h2 className="text-2xl">What we bring to the table?</h2>
-              <div className="mt-2">
+              <div className="text-left sm:text-center mt-2">
                 <li>A competitive compensation package for your hard work</li>
                 <li>Support to help you succeed</li>
                 <li>A pathway to grow with us</li>
