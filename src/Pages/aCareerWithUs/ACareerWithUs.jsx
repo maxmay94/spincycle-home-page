@@ -33,9 +33,9 @@ const ACareerWithUs = () => {
           </div>
 
           
-          <div className="w-screen pb-20">
+          <div className="w-screen pb-10">
             <div className="mx-16 sm:mx-24">
-              <div className="text-center grid sm:grid-cols-2 grid-cols-1 mb-20">
+              <div className="text-center grid sm:grid-cols-2 grid-cols-1 mb-10">
                 <div className="sm:pb-0 pb-10">
                   <h2 className="text-2xl">What you bring to the table?</h2>
                   <div className="text-left sm:text-center mt-2">
