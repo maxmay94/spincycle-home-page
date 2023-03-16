@@ -15,7 +15,7 @@ const BecomeADriver = () => {
 
       <div className="grid lg:grid-cols-3 grid-cols-1 mx-5 text-center place-items-center mb-auto">
 
-        <img className="sm:max-h-[90%] max-h-96 sm:h-96 md:h-2/3 h-2/3 mb-10 md:mb-0 lg:px-16 px-3 hover:scale-110 transition duration-700" src="../images/suv-desert.jpg" alt="car in desert" />
+        <img className="sm:max-h-[90%] max-h-96 sm:h-96 md:h-2/3 h-2/3 my-10 md:my-0 lg:px-16 px-3 hover:scale-110 transition duration-700" src="../images/suv-desert.jpg" alt="car in desert" />
 
         <div className="font-vollkorn">
           <p className="text-xl mb-5">
