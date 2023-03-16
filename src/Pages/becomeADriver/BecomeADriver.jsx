@@ -18,7 +18,7 @@ const BecomeADriver = () => {
         <img className="sm:max-h-[90%] max-h-96 sm:h-96 md:h-2/3 h-2/3 my-10 md:my-0 lg:px-16 px-3 hover:scale-110 transition duration-700" src="../images/suv-desert.jpg" alt="car in desert" />
 
         <div className="font-vollkorn">
-          <p className="text-xl mb-5">
+          <p className="text-4xl mb-5">
             Become a driver
           </p>
 
