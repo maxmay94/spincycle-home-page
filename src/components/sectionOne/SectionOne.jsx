@@ -1,3 +1,5 @@
+import SmallHeader from "../smallHeader/SmallHeader"
+import ThreeColumnsWithPictures from "../threeColumnsWithPictures/ThreeColumnsWithPictures"
 
 const SectionOne = () => {
 
@@ -7,6 +9,7 @@ const SectionOne = () => {
       <div className="col-span-8 flex flex-col justify-center items-center">
         <h1 className="font-gloock text-5xl font-bold text-center highlight-yellow-200 hover:bg-yellow-200 hover:skew-x-2 hover:skew-y-2 transition duration-700">SpinCycle</h1>
       </div>
+      
 
       <div className="md:col-span-3 col-start-2 col-end-8 py-10 my-auto px-10 sm:px-20 md:px-10 lg:px-20">
         <img className="max-w-80 hover:scale-110 transition duration-700" src="../images/man-in-machine-2.jpg" alt="man in washing machine" />

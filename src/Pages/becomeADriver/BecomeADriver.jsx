@@ -10,7 +10,11 @@ const BecomeADriver = () => {
 
       <SmallHeader />
 
-      <ThreeColumnsWithPictures picture1={{pic: '../images/suv-desert.jpg', alt: 'suv in desert'}} picture2={{pic: '../images/suv-dark.jpg', alt: 'suv at sunset'}}>
+      <ThreeColumnsWithPictures 
+        picture1={{pic: '../images/suv-desert.jpg', alt: 'suv in desert'}} 
+        picture2={{pic: '../images/suv-dark.jpg', alt: 'suv at sunset'}}
+        breakpoint='lg:grid-cols-3'
+      >
 
       <div className="font-vollkorn">
           <p className="text-4xl mb-5">

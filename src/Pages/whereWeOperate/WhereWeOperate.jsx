@@ -10,7 +10,11 @@ const WhereWeOperate = () => {
 
       <SmallHeader />
 
-      <ThreeColumnsWithPictures picture1={{pic: '../images/machine-on-grass.jpg', alt: 'machine on grass'}} picture2={{pic: '../images/machine-by-ocean.jpg', alt: 'machine by ocean'}}>
+      <ThreeColumnsWithPictures 
+        picture1={{pic: '../images/machine-on-grass.jpg', alt: 'machine on grass'}} 
+        picture2={{pic: '../images/machine-by-ocean.jpg', alt: 'machine by ocean'}}
+      >
+        
         <div className="font-vollkorn">
           <p className="text-xl mb-5">
             WHERE WE OPERATE
@@ -29,6 +33,7 @@ const WhereWeOperate = () => {
             </ul>
           </ul>
         </div>
+
       </ThreeColumnsWithPictures>
       
       <Footer />
