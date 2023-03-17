@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import Footer from "../../components/footer/Footer"
 import SmallHeader from "../../components/smallHeader/SmallHeader"
 import ThreeColumnsWithPictures from "../../components/threeColumnsWithPictures/ThreeColumnsWithPictures"
@@ -16,7 +15,7 @@ const BecomeADriver = () => {
         breakpoint='lg:grid-cols-3'
       >
 
-      <div>
+        <div>
           <p className="text-4xl lg:text-5xl mb-5">
             Become a driver
           </p>

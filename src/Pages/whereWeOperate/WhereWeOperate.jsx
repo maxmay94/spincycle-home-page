@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import Footer from "../../components/footer/Footer"
 import SmallHeader from "../../components/smallHeader/SmallHeader"
 import ThreeColumnsWithPictures from "../../components/threeColumnsWithPictures/ThreeColumnsWithPictures"
@@ -14,22 +13,22 @@ const WhereWeOperate = () => {
         picture1={{pic: '../images/machine-on-grass.jpg', alt: 'machine on grass'}} 
         picture2={{pic: '../images/machine-by-ocean.jpg', alt: 'machine by ocean'}}
       >
-        
+
         <div className="font-vollkorn">
-          <p className="text-xl mb-5">
+          <p className="text-xl lg:text-2xl mb-5">
             WHERE WE OPERATE
           </p>
           <ul>
-            <li className="text-lg">Massachusetts:</li>
+            <li className="text-lg lg:text-xl">Massachusetts:</li>
             <ul>
-              <li className="text-sm">Boston</li>
-              <li className="text-sm">Somerville</li>
-              <li className="text-sm">Chelsea</li>
-              <li className="text-sm">Everett</li>
-              <li className="text-sm">Malden</li>
-              <li className="text-sm">Medford</li>
-              <li className="text-sm">Revere</li>
-              <li className="text-sm">Cambridge</li>
+              <li className="text-sm lg:text-base">Boston</li>
+              <li className="text-sm lg:text-base">Somerville</li>
+              <li className="text-sm lg:text-base">Chelsea</li>
+              <li className="text-sm lg:text-base">Everett</li>
+              <li className="text-sm lg:text-base">Malden</li>
+              <li className="text-sm lg:text-base">Medford</li>
+              <li className="text-sm lg:text-base">Revere</li>
+              <li className="text-sm lg:text-base">Cambridge</li>
             </ul>
           </ul>
         </div>
