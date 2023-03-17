@@ -4,6 +4,8 @@ import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 import { useRef, useState } from "react"
 
+import BigHeader from "../../components/bigHeader/BigHeader"
+
 const FAQ = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [loaded, setLoaded] = useState(false)
@@ -32,6 +34,8 @@ const FAQ = () => {
           </div>
         </div>
       </div>
+
+      {/* <BigHeader background={'bg-yellow-machines'} options={'backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-hue-rotate-45 hover:backdrop-contrast-150'} /> */}
 
 
       <div className="bg-slate-200 w-full mt-10">
