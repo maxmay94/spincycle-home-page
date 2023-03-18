@@ -1,4 +1,4 @@
-const pictureClass = 'max-h-[55vh] h-2/3 sm:h-96 md:h-fit sm:my-10 lg:px-16 px-3 hover:scale-110 transition duration-700'
+const pictureClass = 'max-h-[55vh] h-2/3 sm:h-96 md:h-fit my-10 lg:px-16 px-3 hover:scale-110 transition duration-700'
 
 const ThreeColumnsWithPictures = (props) => {
 
