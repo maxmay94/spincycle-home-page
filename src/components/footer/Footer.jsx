@@ -29,16 +29,17 @@ const Footer = () => {
           <div className="text-xs">
             <p className="hover:underline" onClick={showMessage}>What We Do</p>
             <Link to="/where_we_operate" className="hover:underline text-slate-900 hover:text-blue-900">Where We Operate</Link>
-            <p className="hover:underline" onClick={showMessage}>Refer A Friend Or Family</p>
+            <p className="hover:underline" onClick={showMessage}>Refer a Friend or Family</p>
           </div>
         </Collapsible>
 
         <Collapsible trigger="Join Us" className="hover:underline">
           <div className="text-xs">
-          <Link to="/a_career_with_us" className="hover:underline text-slate-900 hover:text-blue-900">A Career With Us</Link>
-          <br />
-          <Link to="/become_a_driver" className="hover:underline text-slate-900 hover:text-blue-900">Become A Driver</Link>
-          <p className="hover:underline" onClick={showMessage}>Become A Service Provider</p>
+            <Link to="/a_career_with_us" className="hover:underline text-slate-900 hover:text-blue-900">A Career With Us</Link>
+            <br />
+            <Link to="/become_a_driver" className="hover:underline text-slate-900 hover:text-blue-900">Become A Driver</Link>
+            <br />
+            <Link to="/become_a_service_provider" className="hover:underline text-slate-900 hover:text-blue-900">Become A Service Provider</Link>
           </div>
         </Collapsible>
 

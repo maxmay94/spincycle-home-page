@@ -1,10 +1,17 @@
 import { Link } from "react-router-dom"
 
-const defaultOptions = 'bg-slate-900/50 backdrop-blur-sm hover:backdrop-blur-none backdrop-hue-rotate-90 hover:hue-rotate-30 backdrop-contrast-150 backdrop-invert p-5 '
+const bgOptions = 'bg-cover h-2/3 '
 
-const BigHeader = ({ background  = 'bg-shallow-depth-cover', options = defaultOptions }) => {
+const defaultOptions = 'bg-slate-900/50 backdrop-blur-sm hover:backdrop-blur-none backdrop-hue-rotate-90 hover:hue-rotate-30 backdrop-contrast-150 backdrop-invert p-5'
+
+const BigHeader = ({ 
+    background  = 'bg-shallow-depth-cover', 
+    backgroundOptions = bgOptions ,
+    options = defaultOptions
+  }) => {
+
     return (
-      <div className={`${background} h-2/3 bg-cover`}>
+      <div className={`${backgroundOptions} ${background}`}>
 
         <div className="w-fit sm:p-20 p-10">
           <div className={`${options} transition duration-700`}>

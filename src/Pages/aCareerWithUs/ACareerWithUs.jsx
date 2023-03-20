@@ -7,7 +7,9 @@ const ACareerWithUs = () => {
   return (
     <div className="flex flex-col h-screen text-slate-900 text-center font-vollkorn bg-slate-200 overflow-x-hidden">
 
-      <BigHeader background={'bg-black-white-machine'} />
+      <BigHeader 
+        background={'bg-black-white-machine'} 
+      />
 
 
       <div className="text-3xl pt-20 pb-10">A Career With Us</div>
