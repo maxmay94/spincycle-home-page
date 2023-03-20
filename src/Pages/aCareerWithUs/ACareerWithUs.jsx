@@ -40,7 +40,7 @@ const ACareerWithUs = () => {
                   </div>
                 </div>
 
-                <div className="">
+                <div>
                   <h2 className="text-2xl">What we bring to the table?</h2>
                   <div className="text-left sm:text-center mt-2">
                     <li>A competitive compensation package for your hard work</li>

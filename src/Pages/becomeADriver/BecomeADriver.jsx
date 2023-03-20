@@ -17,7 +17,7 @@ const BecomeADriver = () => {
 
         <div>
           <p className="text-4xl lg:text-5xl mb-5">
-            Become a driver
+            Become a Driver
           </p>
 
           <p className="text-lg lg:text-xl">Why drive with SpinCycle?</p>
