@@ -22,17 +22,17 @@ const BecomeAServiceProvider = () => {
           <p className="text-xl p-5">
             Why Work With <span className="font-gloock">SpinCycle</span>?
           </p>
-          <div className="text-left">
+          <div className="text-left mx-10 sm:mx-20 text-sm sm:text-base">
             <li> We help you reach new customers </li>
             <li> We help you get the most out of your current customers </li>
             <li> We take the hassle out of delivery </li>
-            <li>You have control over your business through
-              <div className="ml-10">
+            <li> You have control over your business through
+              <ul className="ml-10">
                 <li> Analytics </li>
                 <li> Customer feedback and interactions </li>
                 <li> Projections </li>
                 <li> Industry best practices </li>
-              </div>
+              </ul>
             </li>
             <li> Simple Pricing</li>
           </div>
