@@ -37,13 +37,13 @@ const FAQ = () => {
       {/* <BigHeader background={'bg-yellow-machines'} options={'backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-hue-rotate-45 hover:backdrop-contrast-150'} /> */}
 
 
-      <div className="bg-slate-200 w-full mt-10 mb-auto">
+      <div className="bg-slate-200 w-full lg:w-2/3 mx-auto mt-10 mb-auto">
         <div className="px-10 text-center font-vollkorn">
 
           <p className="text-3xl ">Frequently Asked Questions</p>
           <br />
 
-          <div ref={sliderRef} className="keen-slider h-fit">
+          <div ref={sliderRef} className="keen-slider h-fit mt-10">
 
             {/* WHO CLEANS MY CLOTHES */}
             <div className="keen-slider__slide">

@@ -11,7 +11,7 @@ const ThreeColumnsWithPictures = ( props ) => {
         alt={props.picture1.alt} 
       />
 
-        <div className="lg:mt-10">
+        <div className="lg:mt-10 xl:mt-0">
           {props.children}
         </div>
 
