@@ -21,9 +21,9 @@ const FAQ = () => {
   })
 
   return (
-    <div className="bg-slate-200 overflow-x-hidden grid grid-cols-1 w-screen h-screen text-slate-900">
+    <div className="flex flex-col bg-slate-200 overflow-x-hidden  w-screen h-screen text-slate-900">
 
-      <div className="font-gloock bg-yellow-machines bg-top bg-cover py-20 pl-5">
+      <div className="font-gloock bg-yellow-machines bg-top bg-cover py-10 pl-5">
         <div className="mt-10 h-fit w-fit md:w-2/3 p-3 pr-20 backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-hue-rotate-45 hover:backdrop-contrast-150 transition duration-700">
           <div className="py-10 w-fit sm:p-5 pr-20 bg-yellow-200/30 hover:bg-red-200/30">
             <div className="hover:skew-x-2 hover:skew-y-2 transition duration-700 text-center">
@@ -38,7 +38,7 @@ const FAQ = () => {
       {/* <BigHeader background={'bg-yellow-machines'} options={'backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-hue-rotate-45 hover:backdrop-contrast-150'} /> */}
 
 
-      <div className="bg-slate-200 w-full mt-10">
+      <div className="bg-slate-200 w-full mt-10 mb-auto">
         <div className="px-10 text-center font-vollkorn">
 
           <p className="text-3xl ">Frequently Asked Questions</p>
@@ -111,14 +111,11 @@ const FAQ = () => {
         )}
 
         </div>
-
-        <div className="md:absolute md:bottom-0">
-          <Footer />
-        </div>
       </div>
 
-      
-
+      <div className="mt-10">
+        <Footer />
+      </div>
 
     </div>
   )
