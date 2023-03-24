@@ -1,4 +1,5 @@
-const pictureClass = 'h-3/4 sm:h-96 md:h-2/3 lg:h-1/2 lg:px-10 lg:py-10 hover:scale-110 transition duration-700'
+// const pictureClass = 'max-h-[750px] lg:max-h-1/2 h-3/4 sm:h-96 md:h-2/3 lg:h-1/2 lg:px-10 lg:py-10 hover:scale-110 transition duration-700'
+const pictureClass = 'w-3/5 lg:w-[80%] py-20 lg:py-0 hover:scale-110 transition duration-700'
 
 const ThreeColumnsWithPictures = ( props ) => {
 
