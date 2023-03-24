@@ -6,7 +6,7 @@ const ThreeColumnsWithPictures = ( props ) => {
     <div className={`grid ${props.breakpoint ? props.breakpoint : 'sm:grid-cols-3'} grid-cols-1 mx-5 text-center place-items-center mb-auto font-vollkorn h-fit lg:mt-10`}>
 
       <img 
-        className={pictureClass} 
+        className={`${pictureClass} lg:pb-20`} 
         src={props.picture1.pic} 
         alt={props.picture1.alt} 
       />
@@ -16,7 +16,7 @@ const ThreeColumnsWithPictures = ( props ) => {
         </div>
 
       <img 
-        className={`${pictureClass}`}
+        className={`${pictureClass} lg:pb-20`}
         src={props.picture2.pic} 
         alt={props.picture1.alt} 
       />
