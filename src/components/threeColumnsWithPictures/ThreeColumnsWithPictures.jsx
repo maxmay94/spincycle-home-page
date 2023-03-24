@@ -1,9 +1,9 @@
-const pictureClass = 'h-3/4 sm:h-96 md:h-2/3 lg:px-12 lg:py-20 hover:scale-110 transition duration-700'
+const pictureClass = 'h-3/4 sm:h-96 md:h-2/3 lg:h-1/2 lg:px-10 lg:py-10 hover:scale-110 transition duration-700'
 
 const ThreeColumnsWithPictures = ( props ) => {
 
   return(
-    <div className={`grid ${props.breakpoint ? props.breakpoint : 'sm:grid-cols-3'} grid-cols-1 mx-5 text-center place-items-center mb-auto font-vollkorn`}>
+    <div className={`grid ${props.breakpoint ? props.breakpoint : 'sm:grid-cols-3'} grid-cols-1 mx-5 text-center place-items-center mb-auto font-vollkorn h-fit`}>
 
       <img 
         className={pictureClass} 
@@ -11,7 +11,7 @@ const ThreeColumnsWithPictures = ( props ) => {
         alt={props.picture1.alt} 
       />
 
-        <div className="lg:my-20">
+        <div className="lg:mt-10">
           {props.children}
         </div>
 
