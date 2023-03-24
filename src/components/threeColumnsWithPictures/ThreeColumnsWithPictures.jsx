@@ -1,4 +1,4 @@
-const pictureClass = 'max-h-[55vh] h-2/3 sm:h-96 md:h-fit my-10 lg:px-16 px-3 hover:scale-110 transition duration-700'
+const pictureClass = 'max-h-[550px] h-2/3 sm:h-96 md:h-fit my-10 lg:px-16 px-3 hover:scale-110 transition duration-700'
 
 const ThreeColumnsWithPictures = (props) => {
 
@@ -11,10 +11,12 @@ const ThreeColumnsWithPictures = (props) => {
         alt={props.picture1.alt} 
       />
 
-      {props.children}
+        <div className="my-5">
+          {props.children}
+        </div>
 
       <img 
-        className={pictureClass}
+        className={`${pictureClass} mb-20`}
         src={props.picture2.pic} 
         alt={props.picture1.alt} 
       />

@@ -12,10 +12,11 @@ const WhereWeOperate = () => {
       <ThreeColumnsWithPictures 
         picture1={{pic: '../images/machine-on-grass.jpg', alt: 'machine on grass'}} 
         picture2={{pic: '../images/machine-by-ocean.jpg', alt: 'machine by ocean'}}
+        breakpoint='lg:grid-cols-3'
       >
 
         <div className="font-vollkorn">
-          <p className="text-xl lg:text-2xl mb-5">
+          <p className="text-2xl lg:text-3xl mb-5">
             WHERE WE OPERATE
           </p>
           <ul>
