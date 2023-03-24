@@ -23,11 +23,10 @@ const FAQ = () => {
   return (
     <div className="flex flex-col bg-slate-200 overflow-x-hidden  w-screen h-screen text-slate-900">
 
-      <div className="font-gloock bg-yellow-machines bg-top bg-cover py-10 pl-5">
-        <div className="mt-10 h-fit w-fit md:w-2/3 p-3 pr-20 backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-hue-rotate-45 hover:backdrop-contrast-150 transition duration-700">
+      <div className="font-gloock bg-yellow-machines bg-top bg-cover py-10 pl-5 ">
+        <div className="mt-10 h-fit w-fit md:w-2/3 p-3 pr-20 backdrop-hue-rotate-180 backdrop-saturate-200 backdrop-contrast-100 hover:backdrop-hue-rotate-45 hover:backdrop-contrast-150 transition duration-700 overflow-y-hidden">
           <div className="py-10 w-fit sm:p-5 pr-20 bg-yellow-200/30 hover:bg-red-200/30">
-            <div className="hover:skew-x-2 hover:skew-y-2 transition duration-700 text-center">
-
+            <div className="hover:skew-x-2 hover:skew-y-2 transition duration-700 text-center ">
               <Link to="/" className="text-6xl sm:text-9xl text-inherit hover:text-slate-900 hover:bg-yellow-200/70 transition duration-700">SpinCycle</Link>
             </div>
             <div className="font-vollkorn sm:text-xl text-sm text-left pt-5">The smart way to manage your clothes.</div>

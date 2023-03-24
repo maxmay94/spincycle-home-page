@@ -16,7 +16,7 @@ const ThreeColumnsWithPictures = ( props ) => {
         </div>
 
       <img 
-        className={`${pictureClass} mb-20 lg:mb-0`}
+        className={`${pictureClass}`}
         src={props.picture2.pic} 
         alt={props.picture1.alt} 
       />
