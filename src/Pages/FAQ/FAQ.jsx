@@ -46,6 +46,7 @@ const FAQ = () => {
 
           <div ref={sliderRef} className="keen-slider h-fit">
 
+            {/* WHO CLEANS MY CLOTHES */}
             <div className="keen-slider__slide">
               <div className="text-xl">Who cleans my clothes?</div>
               <div className="m-10">
@@ -53,26 +54,31 @@ const FAQ = () => {
               </div>
             </div>
 
+            {/* HOW DO I SCHEDULE MY FIRST ORDER */}
             <div className="keen-slider__slide">
               <div className="text-xl">How do I schedule my first order?</div>  
               <div className="m-10">You can schedule your first order right from our website.</div>
             </div>
 
+            {/* WHAT HAPPENS AFTER I SCHEDULE MY DELIVERY ORDER */}
             <div className="keen-slider__slide">
               <div className="text-xl">What happens after I schedule my delivery order?</div>
               <div className="m-10">We notify you when we pick up your order, when the service provider receives your order, and when your order is ready and on the way to you.</div>
             </div>
 
+            {/* WHAT HAPPENS AFTER I SCHEDULE MY PICKUP ORDER */}
             <div className="keen-slider__slide">
               <div className="text-xl">What happens after I schedule my pick-up order?</div>
               <div className="m-10">We notify the service provider of your order and you reserve your spot. All you have to do is to bring your clothes to them.</div>
             </div>
 
+            {/* HOW SOON CAN I GET MY CLOTHES */}
             <div className="keen-slider__slide">
               <div className="text-xl">How soon can I get my clothes?</div>
               <div className="m-10">That depends on the business you choose. Some providers have same day service while others take a bit longer. Rest assured, when they are done, we will be on our way to drop off your clothes immediately.</div>
             </div>
 
+            {/* WHAT IF I’M NOT HOME */}
             <div className="keen-slider__slide">
               <div className="text-xl">What if I’m not home?</div>
               <div className="m-10">We are dedicated to working around your schedule. We typically follow your preferred pickup and delivery times, and we provide you updates on our progress. If for any reason you’re not home when we're scheduled to pick up or drop off your clothes, you can leave a special instruction, or extend your timeframe. We understand. </div>

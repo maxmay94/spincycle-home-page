@@ -16,10 +16,12 @@ const BecomeADriver = () => {
       >
 
         <div>
+          {/* BECOME A DRIVER */}
           <p className="text-4xl lg:text-5xl mb-5">
             Become a Driver
           </p>
 
+          {/* WHY DRIVE WITH SPINCYCLE */}
           <p className="text-lg lg:text-xl">Why drive with SpinCycle?</p>
           <div className="text-sm lg:text-base mx-5">
             <p className="py-2">You’re working with local businesses to help them better help their communities</p>
@@ -27,6 +29,7 @@ const BecomeADriver = () => {
             <p className="py-2">We have an extensive support network to help you if and when you need it</p>
           </div>
 
+          {/* WHAT'S IN IT FOR YOU */}
           <p className="text-lg lg:text-xl mt-10">What's in it for you?</p>            
           <div className="text-sm lg:text-base mx-5">
             <p className="py-2">Base pay per order - no order is too small, your money is yours to keep</p>
@@ -34,6 +37,7 @@ const BecomeADriver = () => {
             <p className="py-2">Bonus - lots of chances to earn on all the work you put in</p>
           </div>
 
+          {/* HOW DO I JOIN */}
           <p className="text-lg lg:text-xl mt-10">How do I join?</p>            
           <div className="text-sm lg:text-base mx-5">
             <p className="py-2">Are you at least 18 and older?</p>

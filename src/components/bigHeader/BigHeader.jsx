@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const bgOptions = 'bg-cover h-2/3 '
 
-const defaultOptions = 'bg-slate-900/50 backdrop-blur-sm hover:backdrop-blur-none backdrop-hue-rotate-90 hover:hue-rotate-30 backdrop-contrast-150 backdrop-invert p-5'
+const defaultOptions = 'bg-slate-200/50 backdrop-blur-sm hover:backdrop-blur-none backdrop-hue-rotate-180 hover:hue-rotate-30 backdrop-invert backdrop-contrast-150  p-5'
 
 const BigHeader = ({ 
     background  = 'bg-shallow-depth-cover', 

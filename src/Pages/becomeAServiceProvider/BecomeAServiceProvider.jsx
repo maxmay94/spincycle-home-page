@@ -16,6 +16,7 @@ const BecomeAServiceProvider = () => {
         options={headerOptions} 
       />
 
+      {/* BECOME A SERVICE PROVIDER */}
       <div className="mb-auto text-center">
         <div className="text-3xl pt-20 pb-10">Become a Service Provider</div>
         <div className="w-fit mx-auto">
@@ -37,9 +38,7 @@ const BecomeAServiceProvider = () => {
             <li> Simple Pricing</li>
           </div>
         </div>
-
       </div>
-
 
       <div className="mt-10">
         <Footer />

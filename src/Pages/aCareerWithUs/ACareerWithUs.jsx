@@ -19,6 +19,7 @@ const ACareerWithUs = () => {
 
 
           <div className="mx-10 md:mx-40 lg:mx-80">
+            {/* MISSION STATEMENT */}
             <p className=""><span className="text-3xl font-gloock">SpinCycle</span> is here to ensure that every step of the laundry process is easy and efficient. We do this by connecting people with local businesses that provide laundry services in their area in the most convenient way possible.
             </p>
             <br />
@@ -31,6 +32,7 @@ const ACareerWithUs = () => {
             <div className="sm:mx-auto mx-10">
               <div className="text-center grid sm:grid-cols-2 grid-cols-1 mb-10">
                 <div className="sm:pb-0 pb-10">
+                  {/* WHAT YOU BRING TO THE TABLE */}
                   <h2 className="text-2xl">What you bring to the table?</h2>
                   <div className="text-left sm:text-center mt-2">
                     <li>A dedication to the work you do</li>
@@ -41,6 +43,7 @@ const ACareerWithUs = () => {
                 </div>
 
                 <div>
+                  {/* WHAT WE BRING TO THE TABLE */}
                   <h2 className="text-2xl">What we bring to the table?</h2>
                   <div className="text-left sm:text-center mt-2">
                     <li>A competitive compensation package for your hard work</li>
