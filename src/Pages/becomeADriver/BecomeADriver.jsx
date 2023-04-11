@@ -22,7 +22,7 @@ const BecomeADriver = () => {
           </p>
 
           {/* WHY DRIVE WITH SPINCYCLE */}
-          <p className="text-lg lg:text-xl">Why drive with SpinCycle?</p>
+          <p className="text-lg lg:text-xl">Why drive with <span className="font-gloock">SpinCycle?</span> </p>
           <div className="text-sm lg:text-base mx-5">
             <p className="py-2">You’re working with local businesses to help them better help their communities</p>
             <p className="py-2">Our schedule revolves around your time, not the other way around</p>

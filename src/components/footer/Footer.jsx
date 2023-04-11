@@ -13,8 +13,8 @@ const Footer = () => {
 
 
   return (
-    <div className="w-screen bg-slate-300 h-fit text-slate-900 font-light p-5">
-      <div className="grid md:grid-cols-5 grid-cols-1 gap-4 text-lg text-center font-vollkorn">
+    <div className="w-screen bg-slate-300 h-fit text-slate-900 p-5">
+      <div className="grid md:grid-cols-5 grid-cols-1 gap-4 text-lg text-center font-quicksand">
 
         <Collapsible trigger="About SpinCycle" className="hover:underline">
           <div className="text-xs">

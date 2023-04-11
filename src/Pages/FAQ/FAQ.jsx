@@ -38,7 +38,7 @@ const FAQ = () => {
 
 
       <div className="bg-slate-200 w-full lg:w-2/3 mx-auto mt-10 mb-auto">
-        <div className="px-10 text-center font-vollkorn">
+        <div className="px-10 text-center font-quicksand">
 
           <p className="text-3xl ">Frequently Asked Questions</p>
           <br />

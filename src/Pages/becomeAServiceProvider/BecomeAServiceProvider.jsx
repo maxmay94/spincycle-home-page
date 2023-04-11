@@ -8,7 +8,7 @@ const BecomeAServiceProvider = () => {
   const backgroundOptions = 'bg-cover h-1/3 bg-top'
 
   return (
-    <div className="flex flex-col h-screen w-screen text-slate-900 bg-slate-200 overflow-x-hidden font-vollkorn">
+    <div className="flex flex-col h-screen w-screen text-slate-900 bg-slate-200 overflow-x-hidden font-quicksand">
 
       <BigHeader 
         background="bg-sky-over-machines" 

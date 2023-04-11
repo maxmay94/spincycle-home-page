@@ -3,7 +3,7 @@ const pictureClass = 'w-3/5 lg:w-[80%] py-20 lg:py-0 hover:scale-110 transition 
 const ThreeColumnsWithPictures = ( props ) => {
 
   return(
-    <div className={`grid ${props.breakpoint ? props.breakpoint : 'sm:grid-cols-3'} grid-cols-1 mx-5 text-center place-items-center mb-auto font-vollkorn h-fit lg:mt-10`}>
+    <div className={`grid ${props.breakpoint ? props.breakpoint : 'sm:grid-cols-3'} grid-cols-1 mx-5 text-center place-items-center mb-auto font-quicksand h-fit lg:mt-10`}>
 
       <img 
         className={`${pictureClass} lg:pb-20`} 

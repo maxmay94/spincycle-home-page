@@ -15,7 +15,7 @@ const SectionOne = () => {
         <img className="max-w-80 hover:scale-110 transition duration-700" src="../images/man-in-machine-2.jpg" alt="man in washing machine" />
       </div>
 
-      <div className="md:col-span-2 col-start-2 col-span-6 my-auto font-vollkorn text-center xl:text-xl md:text-base sm:px-10 md:px-0 ">
+      <div className="md:col-span-2 col-start-2 col-span-6 my-auto font-quicksand text-center xl:text-xl md:text-base sm:px-10 md:px-0 ">
         <p>Don't worry about your laundry. From         wash-and-fold to dry cleaning and everything in-between we've got you covered door-to-door.
         <br />
         <br />

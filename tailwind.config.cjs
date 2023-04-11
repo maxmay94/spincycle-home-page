@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         'gloock': ['Gloock', 'serif'],
         'vollkorn': ['Vollkorn', 'serif'],
+        'quicksand': ['Quicksand', 'sans-serif'],
       },
       backgroundImage: {
         'shallow-depth-cover': "url(../images/shallow-depth-cover.jpeg)",

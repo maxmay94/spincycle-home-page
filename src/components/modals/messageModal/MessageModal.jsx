@@ -11,7 +11,7 @@ const MessageModal = ({ text }) => {
 
   return (
     <ModalWrapper className="bg-slate-200/20">
-      <div className='bg-slate-200 h-fit w-fit p-10 pb-40 rounded backdrop-blur-md font-vollkorn'>
+      <div className='bg-slate-200 h-fit w-fit p-10 pb-40 rounded backdrop-blur-md font-quicksand'>
         <div className='h-10 text-center text-slate-900'>
           <h1 className='font-gloock'>SpinCycle</h1>
           <p className='p-3'>

@@ -15,7 +15,7 @@ const WhereWeOperate = () => {
         breakpoint='lg:grid-cols-3'
       >
 
-        <div className="font-vollkorn">
+        <div className="font-quicksand">
           <p className="text-2xl lg:text-3xl mb-5">
             WHERE WE OPERATE
           </p>
