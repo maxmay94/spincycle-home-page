@@ -19,6 +19,8 @@ module.exports = {
         'machine-on-grass': "url(../images/machine-on-grass.jpg)",
         'black-white-machine': "url(../images/black-white-machine.jpg)",
         'sky-over-machines': "url(../images/sky-over-machines.jpg)",
+        'laundromat-pastel' : "url(../images/laundromat-pastel.png)",
+        'laundromat-oil' : "url(../images/laundromat-oil.png)",
       }
     },
   },
