@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 const CallToAction = () => {
 
   return (
-    <div className="h-fit py-10 bg-slate-200 md:text-lg text-slate-900 text-center font-quicksand grid grid-cols-3">
-      <div className="w-2/3 md:col-span-2 col-span-3 mx-auto my-auto">
+    <div className="py-10 bg-slate-200 md:text-lg text-slate-900 text-center font-quicksand grid grid-cols-4">
+      <div className="w-2/3 md:col-span-2 col-span-4 mx-auto my-auto">
 
         <h1 className="text-3xl">We are hiring!</h1>
         <br />
@@ -27,10 +27,10 @@ const CallToAction = () => {
           </div>
 
         </div>
-        
+
       </div>
 
-      <div className="md:col-span-1 col-span-3 mx-10 md:my-auto my-10">
+      <div className="md:col-span-2 col-span-4 mx-10 md:my-auto my-10">
         <img src="public/images/laundromat-pastel.png" alt="" />
       </div>
     </div>
