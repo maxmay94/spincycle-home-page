@@ -5,7 +5,7 @@ import BigHeader from "../../components/bigHeader/BigHeader"
 const ACareerWithUs = () => { 
 
   return (
-    <div className="flex flex-col h-screen text-slate-900 text-center font-sono bg-slate-200 overflow-x-hidden">
+    <div className="flex flex-col h-screen text-slate-900 text-center font-quicksand bg-slate-200 overflow-x-hidden">
 
       <BigHeader 
         background={'bg-black-white-machine'} 
