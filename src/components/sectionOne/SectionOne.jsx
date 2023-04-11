@@ -22,6 +22,7 @@ const SectionOne = () => {
         Our convenient online booking system allows you to schedule your laundry pickup and delivery at your own convenience. Plus, we offer flexible delivery options, including same-day and next-day delivery, so you can have your laundry back when you need it.
         </p>
         <br />
+
         <p>Coming soon to Boston!</p>
       </div>
 
