@@ -31,7 +31,7 @@ const CallToAction = () => {
       </div>
 
       <div className="md:col-span-2 col-span-4 mx-10 md:my-auto my-10">
-        <img src="public/images/laundromat-pastel.png" alt="" />
+        <img src="../images/laundromat-pastel.png" alt="" />
       </div>
     </div>
   )
