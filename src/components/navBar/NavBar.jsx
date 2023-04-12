@@ -13,7 +13,7 @@ const NavBar = () => {
   const linkStyle = "text-slate-900 hover:text-slate-900 hover:bg-yellow-200 transition duration-700"
 
   return(
-    <div className="fixed top-0 w-screen bg-slate-200/90 drop-shadow-lg backdrop-blur-md h-[4vh] flex text-slate-900 font-quicksand z-10 overflow-x-hidden">
+    <div className="fixed top-0 w-screen bg-slate-200/80 drop-shadow-sm backdrop-blur-md h-[4vh] flex text-slate-900 font-quicksand z-10 overflow-x-hidden backdrop-hue-rotate-90">
 
       <div className="my-auto pl-5 sm:pl-10 font-gloock flex-1">
         <Link 
