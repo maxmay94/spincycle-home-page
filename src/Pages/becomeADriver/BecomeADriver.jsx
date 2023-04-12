@@ -5,7 +5,7 @@ import ThreeColumnsWithPictures from "../../components/threeColumnsWithPictures/
 const BecomeADriver = () => { 
 
   return (
-    <div className="flex flex-col h-screen w-screen text-slate-900 bg-slate-200 overflow-x-hidden">
+    <div className="flex flex-col h-screen w-screen text-slate-900 bg-slate-200 overflow-x-hidden pt-10">
 
       <SmallHeader />
 
