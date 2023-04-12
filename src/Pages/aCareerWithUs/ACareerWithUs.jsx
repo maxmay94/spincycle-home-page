@@ -28,7 +28,7 @@ const ACareerWithUs = () => {
           </div>
 
           
-          <div className="w-fit pb-10">
+          <div className="w-fit">
             <div className="sm:mx-auto mx-10">
               <div className="text-center grid sm:grid-cols-2 grid-cols-1 mb-10">
                 <div className="sm:pb-0 pb-10">
@@ -58,6 +58,24 @@ const ACareerWithUs = () => {
 
 
         </div>
+
+        <div className="text-center pb-10">
+
+          <div className="flex-1 my-1">
+            <Link to="/a_career_with_us" className="text-slate-900 hover:text-blue-900">Join the Team</Link>
+          </div>
+          
+          <div className="flex-1 my-1">
+            <Link to="/become_a_driver" className="text-slate-900 hover:text-blue-900">Become A Driver</Link>
+          </div>
+
+          <div className="flex-1 my-1">
+            <Link to="/become_a_service_provider" className="text-slate-900 hover:text-blue-900">Become A Service Provider</Link>
+          </div>
+
+
+        </div>
+
       </div>
 
       <div className="m-0">
