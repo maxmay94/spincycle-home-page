@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom"
+import { Reoverlay } from "reoverlay"
+import MessageModal from "../modals/messageModal/MessageModal"
 
 const NavBar = () => {
+
+  const showMessage = () => {
+    Reoverlay.showModal(MessageModal, {
+      text: "Oops, this page is still under construction!"
+    })
+  }
 
   const linkStyle = "text-slate-900 hover:text-slate-900 hover:bg-yellow-200 transition duration-700"
 
@@ -16,15 +24,24 @@ const NavBar = () => {
         </Link>
       </div>
 
-      <div className="my-auto flex-1">
+      <div 
+        className="my-auto flex-1 hover:cursor-pointer"
+        onClick={showMessage}
+      >
         About
       </div>
 
-      <div className="my-auto flex-1">
+      <div 
+        className="my-auto flex-1 hover:cursor-pointer"
+        onClick={showMessage}
+      >
         Careers
       </div>
 
-      <div className="my-auto pr-5 sm:pr-14">
+      <div 
+        className="my-auto pr-5 sm:pr-14 hover:cursor-pointer"
+        onClick={showMessage}
+      >
         Contact
       </div>
 
