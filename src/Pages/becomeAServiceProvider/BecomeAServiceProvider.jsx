@@ -38,6 +38,10 @@ const BecomeAServiceProvider = () => {
             <li> Simple Pricing</li>
           </div>
         </div>
+
+        <br />
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdESPixtEfyQfey_zCxgY9ZSwODb6W6DqPOu-keQKn78pvsIQ/viewform?usp=share_link" target="_blank">Click Here to Begin!</a>
+        
       </div>
 
       <div className="mt-10">

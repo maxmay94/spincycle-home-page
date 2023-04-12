@@ -43,7 +43,10 @@ const BecomeADriver = () => {
             <p className="py-2">Are you at least 18 and older?</p>
             <p className="py-2">Do you have a car or motorcycle?</p>
             <p className="py-2">Can you pass a background check</p>
-            <p className="py-2">Check back soon...</p>
+
+            <p className="py-2">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1Dvqtau3sof3QAY5EZXs1zhtdx9svgJR-5xC9JMbRap-rcg/viewform?usp=share_link" target="_blank">Click Here to Begin!</a>
+            </p>
           </div>
         </div>
 
