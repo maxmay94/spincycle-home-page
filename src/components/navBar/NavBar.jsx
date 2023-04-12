@@ -7,7 +7,7 @@ const NavBar = () => {
   return(
     <div className="fixed top-0 w-screen bg-slate-200/90 drop-shadow-lg backdrop-blur-md h-[4vh] flex text-slate-900 font-quicksand z-10 overflow-x-hidden">
 
-      <div className="pl-10 font-gloock my-auto flex-1">
+      <div className="pl-3 sm:pl-10 font-gloock my-auto flex-1">
         <Link 
           to='/'
           className={linkStyle}
@@ -24,7 +24,7 @@ const NavBar = () => {
         Careers
       </div>
 
-      <div className="my-auto pr-14">
+      <div className="my-auto pr-3 sm:pr-14">
         Contact
       </div>
 
