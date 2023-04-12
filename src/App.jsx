@@ -1,6 +1,7 @@
 import { Routes, Route, useNavigate, Navigate } from 'react-router-dom'
 import { ModalContainer } from 'reoverlay'
 
+import NavBar from './components/navBar/NavBar'
 import Landing from "./Pages/landing/Landing"
 import FAQ from './Pages/FAQ/FAQ'
 import WhereWeOperate from './Pages/whereWeOperate/WhereWeOperate'
@@ -11,7 +12,8 @@ import BecomeAServiceProvider from './Pages/becomeAServiceProvider/BecomeAServic
 function App() {
 
   return (
-    <div className="">
+    <>
+      <NavBar />
       <Routes> 
         <Route path="/" element={<Landing />} />
         <Route path="/FAQ" element={<FAQ />} />
@@ -22,7 +24,7 @@ function App() {
       </Routes>
       <ModalContainer />
       {/* <Landing /> */}
-    </div>
+    </>
   )
 }
 
