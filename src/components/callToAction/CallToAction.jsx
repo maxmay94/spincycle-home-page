@@ -5,7 +5,7 @@ const CallToAction = () => {
     <div className="py-10 bg-slate-200 md:text-lg lg:text-2xl text-slate-900 text-center font-quicksand grid grid-cols-4 ">
       <div className="w-2/3 md:col-span-2 col-span-4 mx-auto my-auto">
 
-        <h1 className="text-3xl lg:text-5xl">We are hiring!</h1>
+        <h1 className="text-3xl lg:text-5xl">We're hiring!</h1>
         <br />
         Are you or somone you know looking to make some extra cash? <br />
         <br />
