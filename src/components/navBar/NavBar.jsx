@@ -28,7 +28,12 @@ const NavBar = () => {
         className="my-auto flex-1 hover:cursor-pointer"
         onClick={showMessage}
       >
-        About
+        <Link
+          to='/'
+          className={linkStyle}
+        >
+          About
+        </Link>
       </div>
 
       <div className="my-auto flex-1 hover:cursor-pointer">
@@ -44,7 +49,12 @@ const NavBar = () => {
         className="my-auto pr-5 sm:pr-14 hover:cursor-pointer"
         onClick={showMessage}
       >
-        Contact
+        <Link
+          to='/'
+          className={linkStyle}
+        >
+          Contact
+        </Link>
       </div>
 
     </div>
